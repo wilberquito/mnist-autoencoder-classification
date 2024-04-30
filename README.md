@@ -24,6 +24,16 @@ to reconstruct the input. It is represented by $h$.
 
 ## Self Supervised Learning
 
-Now we can use the encoder $E$ and fine tunning it for a classification problem.
-As encoder $E$ "knows" important features for the SSL problem, we can apply
-transfer learning for a classification or regression task.
+### pretext task
+
+Now for both model to learn, we need a metric. This metric of loss $L$ which
+should mesure how good the decoder $D$ does reconstructing the original data
+from the encoder $E$.
+
+$$L = Loss(x, x')$$
+
+### downstream task
+
+The learned representation by encoder $E$ can be used and fine tunned. As
+encoder $E$ "knows" important features from the SSL problem, we can use it for
+transfer learning in a classification or regression task.
