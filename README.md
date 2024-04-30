@@ -20,10 +20,10 @@ $$x' = D(h)$$
 
 This is the data representation or the low-level, compressed representation of
 the model’s input. The decoder structure uses this low-dimensional form of data
-to reconstruct the input. It is represented by `h`.
+to reconstruct the input. It is represented by $h$.
 
 ## Self Supervised Learning
 
-Now we can use the encoder `E` and fine tunning it for a classification problem.
-As encoder `E` "knows" important features for the SSL problem, we can apply
+Now we can use the encoder $E$ and fine tunning it for a classification problem.
+As encoder $E$ "knows" important features for the SSL problem, we can apply
 transfer learning for a classification or regression task.
