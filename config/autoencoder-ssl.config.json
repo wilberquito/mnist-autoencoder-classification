@@ -1,7 +1,0 @@
-{
-    "epochs": 20,
-    "batch_size": 8,
-    "latence_space": 9,
-    "lr": 0.1,
-    "accelerate": true
-}

@@ -1,0 +1,7 @@
+{
+    "epochs": 20,
+    "batch_size": 8,
+    "lr": 1e-1,
+    "accelerate": true,
+    "trained_autoencoder_path": "pth/autoencoder-ssl.pth"
+}
